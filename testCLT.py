@@ -1,9 +1,14 @@
-import numpy as np
+# This is to test/demonstrate the Central Limit Theorem (CLT)
 
+# example of Lyapunov CLT
+
+import numpy as np
 import matplotlib.pyplot as plt
 
+#  number of experiments
 Nexp = 10000
 
+# x_avg_all, storage the average measurement of each experiment
 x_avg_all = np.zeros(Nexp)
 for i0 in range(Nexp):
     np.random.seed(np.random.randint(1,1e9,size=1))
