@@ -1,6 +1,7 @@
 # This is to test/demonstrate the Central Limit Theorem (CLT)
-
 # example of Lyapunov CLT
+
+# Author: Hongfeng Ma, Jan. 2024, Denmark
 
 import numpy as np
 import matplotlib.pyplot as plt
